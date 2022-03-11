@@ -10,6 +10,7 @@ setup(
     description="String tools",
     long_description=README_MD,
     long_description_content_type="text/markdown",
+    url="https://github.com/fptiangco/stringtoolsfpat",
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Intended Audience :: Developers",

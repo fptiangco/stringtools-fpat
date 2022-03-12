@@ -5,7 +5,7 @@ README_MD = open(join(dirname(abspath(__file__)), "README.md")).read()
 
 setup(
     name="stringtoolsfpat",
-    version="0.0.18",
+    version="0.0.19",
     packages=find_packages(),
     description="String tools",
     long_description=README_MD,

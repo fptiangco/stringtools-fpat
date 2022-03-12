@@ -5,7 +5,7 @@ README_MD = open(join(dirname(abspath(__file__)), "README.md")).read()
 
 setup(
     name="stringtoolsfpat",
-    version="0.0.13",
+    version="0.0.14",
     packages=find_packages(),
     description="String tools",
     long_description=README_MD,
@@ -19,7 +19,7 @@ setup(
     ],
     project_urls={
         'Bug Reports': 'https://github.com/fptiangco/stringtoolsfpat/issues',
-        'Source': 'https://github.com/fptiangco/sampleproject/'
+        'Source': 'https://github.com/fptiangco/stringtoolsfpat/'
     },
     keywords="stringtoolsfpat",
 )

@@ -6,5 +6,8 @@ class StringToolsFpat:
     def lower(string: str):
         """
         to lower case
+
+
         """
+        
         return string.lower()

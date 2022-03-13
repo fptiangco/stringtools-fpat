@@ -9,5 +9,5 @@ class StringToolsFpat:
 
 
         """
-        
+
         return string.lower()

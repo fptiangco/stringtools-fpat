@@ -4,7 +4,7 @@
 | Pypi | [![PyPI version](https://badge.fury.io/py/stringtoolsfpat.svg)](https://badge.fury.io/py/stringtoolsfpat) ![PyPI - Downloads](https://img.shields.io/pypi/dm/stringtoolsfpat) ![PyPI - Format](https://img.shields.io/pypi/format/stringtoolsfpat) |
 | Code | <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a> |
 |Scan | [![Updates](https://pyup.io/repos/github/fptiangco/stringtoolsfpat/shield.svg)](https://pyup.io/repos/github/fptiangco/stringtoolsfpat/) |
-
+| Docs | [![Read the Docs](https://readthedocs.org/projects/stringtoolsfpat/badge/?version=latest)](https://stringtoolsfpat.readthedocs.io/en/latest/) |
 
 
 

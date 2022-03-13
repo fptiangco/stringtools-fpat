@@ -19,7 +19,7 @@ jobs:
       - uses: psf/black@stable
 
   build:
-    needs: [ test-codecov, lint ]
+    needs: [ codecov, black ]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

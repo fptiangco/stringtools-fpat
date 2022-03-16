@@ -7,6 +7,12 @@ class StringToolsFpat:
         """
         to lower case
 
+        Args:
+            param1 (int): The string to be converted
+
+        Returns:
+            str
+
 
         """
 

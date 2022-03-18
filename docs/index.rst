@@ -10,9 +10,3 @@ Welcome to stringtoolsfpat's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`

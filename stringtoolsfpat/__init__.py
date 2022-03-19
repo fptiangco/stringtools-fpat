@@ -18,7 +18,6 @@ class StringToolsFpat:
 
         return string.lower()
 
-
     @staticmethod
     def upper(string: str):
         """

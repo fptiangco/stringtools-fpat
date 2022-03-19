@@ -5,8 +5,20 @@
 
 Welcome to stringtoolsfpat's documentation!
 ===========================================
+String utils
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+
+
+StringToolsFpat (:py:mod:`StringToolsFpat`)
+===========================================================
+
+Functions
+---------
+
+.. currentmodule:: stringtoolsfpat.StringToolsFpat
+.. autofunction:: lower
+.. autofunction:: upper

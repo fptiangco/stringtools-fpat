@@ -32,4 +32,4 @@ class StringToolsFpat:
 
         """
 
-        return string.higher()
+        return string.upper()

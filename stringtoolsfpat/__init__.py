@@ -5,7 +5,7 @@ class StringToolsFpat:
     @staticmethod
     def lower(string: str):
         """
-        to lower case
+        Convert string to lower case
 
         Args:
             param1 (string): The string to be converted
@@ -21,7 +21,7 @@ class StringToolsFpat:
     @staticmethod
     def upper(string: str):
         """
-        to uppercase case
+        Convert string to upper case
 
         Args:
             param1 (string): The string to be converted

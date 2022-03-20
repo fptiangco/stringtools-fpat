@@ -6,29 +6,39 @@ on:
   workflow_dispatch:
 
 jobs:
+
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.8 
-      - name: Pip
-        run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install setuptools wheel twine
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          python3 setup.py install
-      - name: Unittest
-        run: |
-          cd tests
-          python3 -m unittest discover
-          cd ..
-      - name: TestPyPi
-        run: |
-          python3 setup.py sdist bdist_wheel
-          python3 -m twine upload dist/*
-        env:
-          TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.TWINE_TEST_TOKEN }}
-          TWINE_REPOSITORY: testpypi
+    needs:
+    uses: fptiangco/github-actions-workflows/.github/workflows/build_publish_pypi.yml@main
+    with:
+      twine_repository: testpypi
+    secrets:
+       twine_token: ${{ secrets.TWINE_TEST_TOKEN }}
+
+
+  # build:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - uses: actions/setup-python@v2
+  #       with:
+  #         python-version: 3.8 
+  #     - name: Pip
+  #       run: |
+  #         python3 -m pip install --upgrade pip
+  #         python3 -m pip install setuptools wheel twine
+  #         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+  #         python3 setup.py install
+  #     - name: Unittest
+  #       run: |
+  #         cd tests
+  #         python3 -m unittest discover
+  #         cd ..
+  #     - name: TestPyPi
+  #       run: |
+  #         python3 setup.py sdist bdist_wheel
+  #         python3 -m twine upload dist/*
+  #       env:
+  #         TWINE_USERNAME: __token__
+  #         TWINE_PASSWORD: ${{ secrets.TWINE_TEST_TOKEN }}
+  #         TWINE_REPOSITORY: testpypi

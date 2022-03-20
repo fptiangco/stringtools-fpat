@@ -1,4 +1,6 @@
 name: Test and Pypi
+# Tests and publishes to live pypi
+# Runs on every git tag
 
 on:
   push:

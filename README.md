@@ -5,8 +5,3 @@
 | Code | [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) |
 |Scan | [![Updates](https://pyup.io/repos/github/fptiangco/stringtoolsfpat/shield.svg)](https://pyup.io/repos/github/fptiangco/stringtoolsfpat/) |
 | Docs | [![Read the Docs](https://readthedocs.org/projects/stringtoolsfpat/badge/?version=latest)](https://stringtoolsfpat.readthedocs.io/en/latest/) |
-
-
-
-### Summary
-Lorem Ipsum
